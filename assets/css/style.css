@@ -154,3 +154,34 @@ body{
 #more_info a::hover {
     color: #cbd5e1;
 }
+
+.hidden {
+    display: none;
+}
+
+.normal {
+    color: #9141ac;
+}
+
+.attention {
+    color: #dc2626;
+}
+
+@media screen and (max-width: 1024px) {
+    #img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+    #calculator {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        justify-content: center;
+    }
+}
